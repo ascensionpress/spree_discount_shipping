@@ -8,6 +8,7 @@ Apply discounts to shipping methods in Spree Commerce.
 * Easily set shipping discounts on new and existing shipping methods through the Spree admin GUI.
 * Shipping amounts are calculated with: `calculator_cost * (100 - discount)/100.0`. This can be adjusted [here](#).
 * Easily set default shipping discounts that apply to all shipping methods.
+* View shipping discounts from the shipping_methods index.
 * All existing shipping methods default to a 0% discount.
 * No modifications to any of your `Spree::Calculator` classes are required--even if those classes are custom.
 
